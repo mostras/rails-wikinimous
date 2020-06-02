@@ -1,0 +1,16 @@
+<h1>Articles saved</h1>
+
+<%= link_to("NEW ARTICLE", new_article_path, class: "btn btn-big") %>
+
+<% @articles.each do |article| %>
+<div class="article-card">
+  <div>
+    <h2> <%= article.title %> </h2>
+    <p> <%= article.content %> </p>
+  </div>
+  <div>
+    <%= link_to("VIEW", article_path(article), class: "btn") %>
+  </div>
+</div>
+<% end %>
+

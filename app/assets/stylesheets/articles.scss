@@ -1,0 +1,76 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.article-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+  padding-left: 1rem;
+  background-color: rgba(185, 222, 250, 0.4);
+  border-left: 8px solid rgba(185, 222, 250, 1);
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff
+}
+
+.btn-big {
+  background-color: rgba(185, 222, 250, 0.4);
+  margin: 1rem;
+  padding: 10px 30px;
+  font-weight: 700;
+  border: 1 solid rgba(185, 222, 250, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
